@@ -61,3 +61,5 @@ jobs:
       - name: Deploy to production
         run: |
           exoframe deploy --token ${{ secrets.EXOFRAME_TOKEN }} --endpoint "https://exoframe.xf.mkrs.link" --update
+
+
